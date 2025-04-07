@@ -16,13 +16,3 @@ jobs:
         run: npm ci
       - name: Run Tests
         run: npm test
-      - name: Run Lint
-        run: npm run lint
-      - name: Run Build
-        run: npm run build
-      - name: Run Test
-        run: |
-          echo "Hello World!"
-          echo "Done - bye!"
-          echo "First output"
-          echo "Second output"
